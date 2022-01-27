@@ -1,0 +1,52 @@
+.app {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.section-container {
+    margin-bottom: 60px;
+}
+
+body{
+    background-color: #4C516D;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul,
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+}

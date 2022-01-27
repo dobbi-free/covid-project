@@ -1,0 +1,27 @@
+.main-stats {
+  max-width: 570px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-stats__list-item {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.main-stats__list {
+  display: flex;
+  padding: 30px 20px;
+  color: #a9a9a9ff;
+  background-color:#003153;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-stats__span {
+  font-size: 30px;
+  display: block;
+}
+
